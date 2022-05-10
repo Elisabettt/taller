@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>SONAR</title>
+    <script src="js/taller.js" type="text/javascript"></script>
+    <script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+<div class="contenedor">
+
+
+  <!-- 1ra seccion-->
+  <section id="seccion1">
+
+
+<div id="seccion1a" >
+            <div class="col-1">
+            <h1>HACÉ<br> TU PROPIO <br>BARBIJO INCLUSIVO</h1>
+            <h2>Aprobados y respaldados por: <br><strong>Confederación de Sordos</strong><br>
+            y la <strong>Mutual de Hipoacusia</strong>
+            </h2>
+            <h3>Para compartir tu sonrisa y comunicarte
+            mejor <br> te enviaremos un mail con la moldería <br> para que confecciones tu barbijo.
+            </h3>
+              </div>
+              <div class="col-2">
+                <div class="imagenuno">
+
+              <img src="img/uno.png" alt="imagen chica con barbijo">
+                </div>
+  </div>
+
+</div>
+<div class="padreButton">
+  <div id="botonn">
+  <button class="btn-grad" type="button" name="button">Crear ahora</button>
+  </div>
+</div>
+
+
+  </section>
+
+  <!--2ra seccion-->
+  <section id="seccion2">
+
+<div class="columnas">
+  <div class="col-1">
+    <h2>¿Por qué usarlos?</h2>
+    <p>Un <strong>10% de nuestra población</strong> tiene alguna <strong>discapacidad auditiva.</strong>
+      <br>Estos barbijos los ayudarian a poder comunicarse, ya que, <strong> permiten leer los labios.</strong>
+
+  </div>
+  <div class="col-2">
+    <h2>¿Qué te proponemos?</h2>
+  <p>Te invitamos a hacer tu propio barbijo, para ello
+  te enviaremos por mail una guia sencilla para que confecciones el barbijo en tu <strong>propio hogar </strong> y con las <strong>herramientas que tengas a mano.</strong></p>
+
+  </div>
+</div>
+
+
+  </section>
+
+<!--3ra seccion-->
+<section id="seccion3">
+  <div class="col-1">
+    <div class="preview">
+      <input class='red' name='color' type='radio' />
+      <input class='green' name='color' type='radio' />
+        <input class='pink' name='color' type='radio' />
+      <input checked class='yellow' name='color' type='radio' />
+      <input class='purple' name='color' type='radio' />
+      <img src="img/dos.png"/>
+  </div>
+    </div>
+<div class="col-2">
+  <h2> <strong>¡Visualizá como quedaría!</strong></h2>
+  <h3>Selecciona las opciones que más
+  te gusten.</h3>
+  <h3>Color</h3><
+
+  <h3>Estampa</h3>
+
+
+</div>
+</section>
+<!--4ra seccion-->
+<section id="seccion4">
+
+<div class="texto">
+  <h2>Completá con tus datos así te enviamos la <strong>moldería</strong> <br> y la <strong>previsualización</strong> de tu <strong>próximo barbijo!</strong> </h2>
+</div>
+<div class="form">
+  <form onsubmit="enviarFormulario(); return false">
+
+ <input type="text" class="field"  id="fname" name="fname" value="Nombre">
+<br>
+
+     <input type="email"class="field"  id="mail" name="fname" placeholder="Correo electronico" value=""><br>
+<div class="formulario">
+  <select class="field" name="estampas" id="estampas">
+             <option selected disabled>Estampa</option>
+             <option  value="Estrellas">Estrellas<
+               option>
+             <option value="Lunares">Lunares</option>
+             <option value="Cuadros">Cuadros</option>
+           </select>
+
+   <select class="field" name="colores" id="colores">
+              <option selected disabled>Color</option>
+              <option value="Azul">Azul</option>
+              <option value="Verde">Verde</option>
+              <option value="Amarillo">Amarillo</option>
+            </select><br>
+
+</div>
+
+               <div id="botondos">
+               <input class="btn-grad" id="boton-form" type="submit"  name="button">Crear ahora </input>
+               </div>
+</form>
+</div>
+
+
+</section>
+<!--5ta seccion  Feedback-->
+<section  class="no-mostrar feedback"  id="contenedor-feedback">
+  <div class="col-1">
+    <h1>¡Gracias <span id="nombre-usuario"></span> por colaborar en esta nueva alternativa!</h1>
+    <h2>Revisá tu correo que ya te mandamos todo lo que necesitas para
+   <strong>¡crear tu barbijo!</strong></h2>
+   <button onclick="cerrarFeedback()" class="btn-grad" type="button" name="button"
+   >Salir</button>
+
+  </div>
+  <div class="col-2">
+    <img src="img/tres.png" alt="">
+  </div>
+</section>
+
+
+  </div>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+body{
+padding: 0;
+margin: 0;
+   font-family: 'Varela Round', sans-serif;
+}
+
+#seccion1a{
+display: flex;
+justify-content: space-between;
+padding: 0 13%;
+}
+#seccion1a, #seccion5 h2{
+  font-weight: lighter;
+}
+h1{
+font-weight: bold;
+font-size: 38px;
+}
+ h3{
+  font-weight: lighter;
+}
+#seccion1a img {
+  border-radius: 180px;
+  padding: 20px;
+
+}
+.imagenuno{
+  width: 300px;
+  align-items: center;
+  margin:0 auto;
+  text-decoration: none;
+  position:relative;
+  top: 40px;
+}
+#seccion1a .col-2{
+    margin: 0 auto;
+
+}
+#botonn{
+justify-content: center;
+  text-decoration: none;
+  width: 300px;
+  align-items: center;
+  margin:0 auto;
+  text-decoration: none;
+  position:relative;
+  top: 40px;
+}
+.padreButton{
+  margin: 0 auto;
+}
+.btn-grad {background-image: linear-gradient(to right, #8C3EE9 0%, #F94B9F  51%, #8C3EE9  100%)}
+.btn-grad {
+
+            padding: 15px 45px;
+            font-size: 34px;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            border: none;
+            border-radius: 40px;
+          }
+  .btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+}
+#seccion2 p{
+  font-size: 20px;
+
+}
+#seccion2{
+  background-color: #F8F4F2;
+  align-items: center;
+
+padding: 0 13%;
+padding-top: 40px;
+padding-bottom: 20px;
+margin: 0;
+
+}
+.columnas{
+  display: flex;
+  justify-content:center;
+
+}
+.col-1,.col-2{
+  width: 50%;
+}
+.col-2{
+  padding-left: 10px;
+}
+
+#seccion3{
+
+   display: flex;
+   justify-content:center;
+
+}
+
+.preview{
+  background: #ccc;
+  width: 415px;
+  height: 430px;
+  border: solid 10px #fff;
+}
+
+ input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 25px;
+  height: 25px;
+  margin: 5px 0 5px 5px;
+  position: relative;
+  float: left;
+  display: inline;
+  top: 0;
+  border-radius: 15px;
+  z-index: 99999;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000;
+}
+
+input[type='radio']:hover{
+  -webkit-filter: opacity(.4);
+  filter: opacity(.4);
+}
+
+.red{
+  background: red;
+}
+
+.red:checked{
+  background: linear-gradient(brown, red)
+}
+
+.green{
+  background: green;
+}
+
+.green:checked{
+  background: linear-gradient(green, lime);
+}
+
+.yellow{
+  background: yellow;
+}
+
+.yellow:checked{
+  background: linear-gradient(orange, yellow);
+}
+.purple{
+  background: purple;
+}
+.pink{
+  background: pink;
+}
+.purple:checked{
+  background: linear-gradient(purple, violet);
+}
+.red:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 red);
+  filter: opacity(.5) drop-shadow(0 0 0 red);
+}
+
+.green:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 green);
+  filter: opacity(.5) drop-shadow(0 0 0 green);
+}
+
+.yellow:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 yellow);
+  filter: opacity(.5) drop-shadow(0 0 0 yellow);
+}
+
+.purple:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 purple);
+  filter: opacity(.5) drop-shadow(0 0 0 purple);
+}
+
+.pink:checked ~ img{
+  -webkit-filter: opacity(.5) drop-shadow(0 0 0 pink);
+  filter: opacity(.5) drop-shadow(0 0 0 pink);
+}
+
+
+img{
+  width: 394px;
+  height: 375px;
+  position: relative;
+}
+
+.label{
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  top: 170px;
+  margin-left: 130px;
+}
+
+::selection{
+  background: #000;
+}
+/*FORMULARIO*/
+
+#seccion4{
+  text-align: center;
+  background-color: #F8F4F2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#botondos{
+  justify-content: center;
+    text-decoration: none;
+    width: 300px;
+    align-items: center;
+    margin:0 auto;
+    text-decoration: none;
+    position:relative;
+}
+.formulario{
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+.form {
+  margin: 0 auto;
+  font-size: 20px;
+  border-color: #8C3EE9 ;
+}
+.input{
+border-radius: 5px
+
+}
+.field{
+  width: 400px;
+  border:solid 1px #ccc;
+  padding: 10px;
+}
+
+
+/*Feedback*/
+#seccion5{
+  display: flex;
+ justify-content:center;
+ margin: 20px;
+ width: 100vw;
+ height: 100vw;
+ position: absolute;
+}
+.mostrar {
+  display: flex;
+}
+.no-mostrar {
+  display: none !important;
+}
