@@ -1,0 +1,400 @@
+body{
+padding: 0px;
+margin: 0;
+   font-family: 'Varela Round', sans-serif;
+}
+#barra{
+  padding: 0px;
+  background-color: #50227D;
+
+}
+#barra h2{
+  color: white;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#seccion1a{
+display: flex;
+justify-content: space-between;
+padding: 0 13%;
+}
+ h2{
+  font-weight: lighter;
+}
+h1{
+font-weight: bold;
+font-size: 38px;
+}
+ h3{
+  font-weight: lighter;
+}
+#seccion1a img {
+border-radius: 120px;
+}
+.color{
+  color: #7D00FF;
+}
+.color2{
+  color: #490590;
+}
+.imagenuno{
+  width: 400px;
+  align-items: center;
+  margin:0 auto;
+  text-decoration: none;
+  position:relative;
+  top: 40px;
+
+
+}
+#seccion1a .col-2{
+    margin: 0 auto;
+
+}
+#botonn{
+justify-content: center;
+  text-decoration: none;
+  width: 300px;
+  align-items: center;
+  margin:0 auto;
+  text-decoration: none;
+  position:relative;
+  top: 40px;
+}
+.padreButton{
+  margin: 0 auto;
+}
+.btn-grad {
+  background-image: linear-gradient(to right, #8C3EE9 0%, #F94B9F  51%, #8C3EE9  100%)
+}
+.btn-grad {
+            padding: 15px 45px;
+            font-size: 34px;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            border: none;
+            border-radius: 40px;
+            text-decoration: none;
+          }
+.btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+}
+#seccion2 p{
+  font-size: 20px;
+
+}
+#seccion2{
+  background-color: #F8F4F2;
+  align-items: center;
+padding: 0 13%;
+padding-top: 40px;
+padding-bottom: 20px;
+margin: 0;
+}
+#seccion2 img{
+  height: 265px;
+
+
+}
+.columnas{
+  display: flex;
+  justify-content:center;
+
+}
+.col-1,.col-2{
+  width: 50%;
+}
+.col-2{
+  padding-left: 120px;
+}
+#porqueUsarlos{
+
+  padding-top: 10px;
+  background-color: #F8F4F2;
+}
+#porqueUsarlos h2{
+  text-align: center;
+}
+.items{
+  display: flex;
+  justify-content:center;
+
+}
+#porqueUsarlos .item1,.item2, .item3 {
+width: 25%;
+text-align: center;
+padding-bottom: 15px;
+}
+#seccion3{
+ display: flex;
+   justify-content:center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+#seccion3 .textos3{
+    padding-left: 190px;
+}
+.textos3col-2{
+  display: none;
+  visibility: hidden;
+}
+.opciones3{
+  display: none;
+  visibility: hidden;
+}
+.opcionescol-1{
+  visibility:visible;
+  padding-left: 190px;
+}
+.botoncs1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFE600;
+}
+.botoncs2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:#FF7527;
+}
+.botoncs3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:#FF2775;
+}
+.botonese1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("../img/siete.png");
+}
+.botonese2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+    background-image: url("../img/seis.png");
+}
+.botonese3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+    background-image: url("../img/cinco.png");
+}
+img{
+  width: 394px;
+  height: 375px;
+  position: relative;
+}
+
+.label{
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  top: 170px;
+  margin-left: 130px;
+}
+
+::selection{
+  background: #000;
+}
+/*FORMULARIO*/
+
+#seccion4{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#seccion4 .h2{
+  font-weight: lighter;
+}
+#botondos{
+  justify-content: center;
+    text-decoration: none;
+    width: 300px;
+    align-items: center;
+    margin:0 auto;
+    text-decoration: none;
+    position:relative;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+    text-decoration: none;
+    width: 423px;
+    align-items: center;
+    margin:0 auto;
+    position:relative;
+}
+.form {
+  margin: 0 auto;
+  font-size: 20px;
+  border-color: #8C3EE9 ;
+}
+.field{
+  width: 400px;
+  border:solid 1px #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+textarea:focus, input:focus, input[type]:focus {
+    border-color: #8C3EE9 ;
+    outline: 0 none;
+}
+
+/*Feedback*/
+#contenedor-feedback{
+  display: flex;
+ justify-content:center;
+padding: 0 13%;
+width: 100%;
+height: 100%;
+ position: fixed;
+
+ padding-bottom: 20px;
+}
+#contenedor-feedback img{
+  width: 250px;
+  height: 250px;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+#contenedor-feedback .col-1{
+  width: 80%;
+}
+#contenedor-feedback .col-2{
+  width: 20%;
+}
+.mostrar {
+  display: flex;
+}
+.no-mostrar {
+  display: none !important;
+}
+.feedback{
+  width: 1400px;
+  height: 800px;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px 30px;
+  visibility: hidden;
+}
+.open-feedback{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%)scale(1);
+}
+
+
+
+
+ /*MMQMQMQMQMQMQMQMQMQMQMQMQMQMQMQMQMQMQMQM*/
+
+@media  (max-width: 575.98px){
+  h1{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  p{
+    font-size: 16px;
+  }
+  img{
+    width: 280px;
+    height: 280px;
+    position: relative;
+  }
+  #seccion1a {
+    display: block;
+}
+#seccion1.col-1, .col-2{
+  width: 90%;
+}
+#seccion1 .col-2{
+  padding: 0;
+  margin: 5px;
+}
+.tituloUno{
+display: none;
+}
+#seccion2 p{
+  font-size: 20px;
+
+}
+#seccion2{
+  background-color: #F8F4F2;
+padding: 0 ;
+margin: 0;
+}
+#seccion2 img{
+  height: 250px;
+  width: 250px;
+}
+.columnas{
+  display: block;
+
+}
+.col-1,.col-2{
+  width: 80%;
+}
+#seccion2 .col-2{
+  padding-left:80px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+#seccion2 .imagens2{
+  display: none;
+}
+#seccion3{
+display: block;
+}
+#seccion3 .col-2{
+padding: 0px 0px;
+}
+#seccion3 .textos3{
+  visibility: visible;
+  padding-left: 80px;
+}
+.seccion3{
+  padding-left: 80px;
+padding-bottom: 15px;
+}
+.s3{
+  display: none;
+}
+.opcionescol-1{
+display: none;
+  visibility: hidden;
+}
+.opciones3{
+  display: block;
+  visibility:visible;
+  padding: 0px;
+}
+#porqueUsarlos .item1,.item2, .item3 {
+width: 25%;
+text-align: center;
+padding-bottom: 15px;
+display: block;
+
+justify-content:center;
+}
+.formulario{
+  display: block;
+}
